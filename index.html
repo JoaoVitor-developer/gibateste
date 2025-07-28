@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Mainichi Car service</title>
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css">
+  <meta name="description" content="Mainichi Car Service - Oficina mecânica especializada em São Paulo. Agende revisão, manutenção de freios, troca de óleo e mais.">
+  <meta name="author" content="Mainichi Car Service">
+  <meta name="keywords" content="oficina mecânica, revisão automotiva, freios, troca de óleo, São Paulo">
+</head>
+<body>
+  <header>
+    <div class="logo-container">
+      <img src="./imagens/logosemfundo.png" alt="Logo Mainichi Car Service" class="logo-img" />
+      <h1>Mainichi Car service</h1>
+    </div>
+    <nav id="navMenu">
+      <a href="#servicos" class="active">Serviços</a>
+      <a href="#contato">Contato</a>
+      <a href="#sobre">Sobre</a>
+      <a href="#depoimentos">Depoimentos</a>
+    </nav>
+    <div id="menuToggle" aria-label="Toggle menu" aria-expanded="false" tabindex="0" role="button">
+      <span></span>
+      <span></span>
+      <span></span>
+    </div>
+  </header>
+  <section class="hero" aria-label="Imagem de destaque Garagem 347">
+    <h2>Seu carro na melhor oficina!</h2>
+  </section>
+  <section id="servicos" aria-label="Seção de serviços">
+    <h2>Serviços que oferecemos</h2>
+    <div class="servicos-grid">
+      <!-- Cards de serviço seriam aqui -->
+    </div>
+  </section>
+  <section id="contato" class="contact" aria-label="Formulário de contato">
+    <h2>Fale Conosco</h2>
+    <form class="contact-form" id="form-contato">
+      <input type="text" name="nome" id="nome-contato" placeholder="Seu nome" required />
+      <input type="email" name="email" id="email-contato" placeholder="Seu e-mail" required />
+      <input type="tel" name="telefone" id="telefone-contato" placeholder="Seu telefone" required />
+      <textarea name="mensagem" id="mensagem-contato" rows="5" placeholder="Sua mensagem" required></textarea>
+      <button type="submit">Enviar Mensagem</button>
+    </form>
+  </section>
+  <footer>
+    <p>© 2025 Mainichi Car service - Rua Gonçalves Dias, 61 | 
+    <a href="https://instagram.com/joao.dias_07" target="_blank" rel="noopener noreferrer">Instagram</a> | 
+    WhatsApp: (11) 97265-9272</p>
+  </footer>
+  <button id="topBtn" aria-label="Voltar ao topo"><i class="fas fa-arrow-up"></i></button>
+  <script src="script.js"></script>
+</body>
+</html>
